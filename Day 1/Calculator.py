@@ -9,7 +9,7 @@ def Calculator(a, b, choice):
 
 print("Simple Calculator")
 print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
-choice = int(input("Enter your Choice:"))
+choice = int(input("Enter your Choice: "))
 a = int(input("Enter value of a: "))
 b = int(input("Enter value of b: "))
-print(Calculator(a, b, choice))
+print("Answer is " + str(Calculator(a, b, choice)))

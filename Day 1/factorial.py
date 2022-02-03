@@ -7,4 +7,4 @@ def fib(n, dp):
     return dp[n]
 n = int(input("Enter the number: "))
 dp = [-1 for i in range(0, n)]
-print(fib(n - 1, dp))
+print("Factorial value is " + str(fib(n - 1, dp)))
